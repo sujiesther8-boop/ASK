@@ -37,7 +37,7 @@ decoded = (demod[::fs//br] > 0.25).astype(int)
 
 # Plot
 plt.figure(figsize=(10,9))
-plt.suptitle("NAME : AJITH KUMAR M\nREG NO : 212224060010",
+plt.suptitle("NAME : SUJITHA ESTHER\nREG NO : 212224060266",
              fontsize=12, fontweight='bold')  
 
 plt.subplot(4,1,1)
@@ -99,7 +99,7 @@ demod = np.repeat(dec, bd)
 
 # Plot
 plt.figure(figsize=(10,10))
-plt.suptitle("NAME : AJITH KUMAR M\nREG NO : 212224060010",
+plt.suptitle("NAME : SUJITHA ESTHER S\nREG NO : 212224060266",
              fontsize=12, fontweight='bold')
 
 plt.subplot(5,1,1); plt.plot(t, msg); plt.title("Message Signal")
@@ -115,10 +115,12 @@ plt.show()
 # Output Waveform
 
 ## ASK
-<img width="978" height="887" alt="image" src="https://github.com/user-attachments/assets/9ee70707-e341-4f35-a672-7861323338ba" />
+<img width="873" height="856" alt="image" src="https://github.com/user-attachments/assets/b2d8531b-af2d-4a6b-8f09-a208642458ae" />
+
 
 ## FSK
-<img width="989" height="985" alt="image" src="https://github.com/user-attachments/assets/09f32fce-3dea-4a64-8491-1f2d3695aaa6" />
+<img width="1033" height="1032" alt="image" src="https://github.com/user-attachments/assets/8a2b7d9d-4f46-4af1-b89b-68d214352443" />
+
 
 # Results
 Thus, the ASK and FSK were performed using Colab
